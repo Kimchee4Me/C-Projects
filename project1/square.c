@@ -1,4 +1,6 @@
-/* This program prints out a table of squares, given a lower and upper limit
+/* 
+   Esther Malone
+   This program prints out a table of squares, given a lower and upper limit
    from the user; */
 #include stdio.h
 int main(void) {
