@@ -1,4 +1,4 @@
-/* Implement your code in this file 
+/* Esther Malone
    This program prints out a table of squares of a 
    lower limit given to the upper limit */
 
