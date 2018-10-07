@@ -246,15 +246,7 @@ int remove_event(Calendar *calendar, const char *name) {
     }
 
     prev -> next = curr -> next;
-    /*
-    if(curr -> info != NULL  && calendar -> free_info_func != NULL) {
-      calendar -> free_info_func(curr -> info);
-    }
-
-    else {
-      free(curr -> info);
-    }
-    */
+   
     free(curr -> name);
     free(curr);
     curr = NULL;
